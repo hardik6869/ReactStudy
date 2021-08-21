@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import {add,sub,mul,div} from './Arith';
-code of maser branch
+// updated code of master branch
 let greet = '' ;
 let cDate = new Date();
 let cTime = cDate.getHours();
