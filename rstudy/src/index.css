@@ -1,0 +1,35 @@
+*{ margin: 0; padding: 0;  box-sizing: border-box;   background-color: aqua;}
+
+.greetstyle{
+  height: 85vh;
+  margin-top: 160px;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  cursor: pointer;
+  font-family: 'Carter One',cursive;
+  text-align: center;
+  color: blueviolet;
+  text-shadow: 0 1px #efefef,
+              0 2px #efefef,
+              0 3px #efefef,
+              0 4px #efefef,
+              0 30px 5px rgb(0,0,0,.1);
+}
+h1:hover{
+  letter-spacing: 0.125rem;
+  word-spacing: 0.5rem;
+}
+.Arithmatic{
+  margin-top: 28px;
+  font-family: 'Carter One',cursive;
+  text-align: center;
+  color: blueviolet;
+  text-shadow: 0 1px #efefef,
+              0 2px #efefef,
+              0 3px #efefef,
+              0 4px #efefef,
+              0 30px 5px rgb(0,0,0,.1);
+
+}
