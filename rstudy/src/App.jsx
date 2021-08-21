@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import {add,sub,mul,div} from './Arith';
 // updated code of master branch
+// sreact
 let greet = '' ;
 let cDate = new Date();
 let cTime = cDate.getHours();
