@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import {add,sub,mul,div} from './Arith';
-
+STudy code
 let greet = '' ;
 let cDate = new Date();
 let cTime = cDate.getHours();
