@@ -16,7 +16,7 @@ input{
   background-color: #dff9fb;
   color: black;
   margin: 0.5rem 0;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 h1{
   cursor: pointer;
@@ -56,17 +56,67 @@ button{
   box-shadow: 0 1px #efefef,
               0 2px #efefef,
               0 3px #efefef,
-              0 4px #efefef, 0 30px 5px rgb(0,0,0,.1);
+              0 4px #efefef, 0 15px 5px rgb(0,0,0,.3);
   font-weight: 700;
   padding: 0.8rem 1rem;
   border-radius: 25px;
   justify-content: center;
   align-items: center;
   background: blueviolet;
-  color: #efefef;
+  color: #efefef;margin-bottom: 20px;
   align-content: center;
   text-transform: uppercase;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.65,-0.25,0.25,1.95);
+}
+.Main_div{
+  margin:2% 30%;
+  border-radius: 20px;
+  padding: 0 0 5% 0 ;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.inner_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+.todoBtn{
+  font-size: 1rem;
+  width: 2.8rem;
+}
+.txtList{
+  font-size: 1.5rem;
+  color:sienna;
+}
+.toDoHead{
+  background-color:blueviolet ;
+  color: white ;
+  padding: 5px;
+  border-radius: 20px 20px 0 0 ;
+  margin-bottom: 30px;
+  text-shadow: 0 1px red,
+              0 2px red,
+              0 3px red,
+              0 4px red,
+              0 20px 5px rgb(0,0,0,.1);
+}
+button:hover{
+  background-color: rgb(8, 185, 47);
+}
+.delbtn{
+  cursor: pointer;
+  padding: 0.3rem 0.4rem;
+  border-radius: 25px;
+  justify-content: center;
+  font-weight: bolder;
+  background: blueviolet;
+  color: White;
+}
+.delbtn:hover{
+  background: red;
+}
+.todoText{
+  flex-direction: row;
 }
