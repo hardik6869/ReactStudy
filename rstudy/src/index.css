@@ -1,5 +1,5 @@
-*{ margin: 0; padding: 0;  box-sizing: border-box;}
-
+ *{ margin: 0; padding: 0;  box-sizing: border-box;color: black;}
+/*
 .greetstyle{
   margin-top: 30px;
   display: flex;
@@ -18,7 +18,7 @@ input{
   margin: 0.5rem 0;
   font-size: 2rem;
 }
-/* h1{
+h1{
   cursor: pointer;
   font-family: 'Carter One',cursive;
   text-align: center;
@@ -28,12 +28,12 @@ input{
               0 3px #efefef,
               0 4px #efefef,
               0 20px 5px rgb(0,0,0,.1);
-} */
-/* h1:hover,button:hover{
+} 
+h1:hover,button:hover{
   letter-spacing: 0.125rem;
   word-spacing: 0.5rem;
-} */
-.Arithmatic{
+} 
+ .Arithmatic{
   margin-top: 28px;
   font-family: 'Carter One',cursive;
   text-align: center;
@@ -45,7 +45,7 @@ input{
               0 30px 5px rgb(0,0,0,.1);
 
 }
-/* button{ 
+button{ 
   font-size: 0.6rem;
   cursor: pointer;
   outline: none;
@@ -69,13 +69,13 @@ input{
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.65,-0.25,0.25,1.95);
-} */
-/* .Main_div{
+}
+.Main_div{
   margin:2% 30%;
   border-radius: 20px;
   padding: 0 0 5% 0 ;
   box-shadow: 3px 3px 3px 3px gray;
-} */
+}
 .inner_div{
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ input{
               0 20px 5px rgb(0,0,0,.1);
 }
 button:hover{
-  /* background-color: rgb(8, 185, 47); */
+  background-color: rgb(8, 185, 47); 
 }
 .delbtn{
   cursor: pointer;
@@ -119,7 +119,7 @@ button:hover{
 }
 .todoText{
   flex-direction: row;
-}
+} */
 .main{
   padding-top:35vh ;
   margin: 3 10%;
@@ -131,8 +131,8 @@ button:hover{
   text-align: center;
   padding: 50px;
   width: 20%;
-  background-color: White;
   border-radius: 10px;
+  background-color: white;
   box-shadow: 0 1px #efefef,
   0 2px #efefef,
   0 3px #efefef,
@@ -143,15 +143,17 @@ h1{
               0 2px #efefef,
               0 3px #efefef,
               0 4px #efefef,
-              0 10px 5px rgb(0,0,0,.3);
-              margin-bottom: 20px;
+              0 10px 20px rgb(0,0,0,.9);
+margin-bottom: 20px;
+}
+Clock{
+  color: red;
 }
 .Inc,.rem{
   box-shadow: 0 1px #efefef,
               0 2px #efefef,
               0 3px #efefef,
               0 4px #efefef, 0 15px 5px rgb(255,0,0,.3);
-  margin: 30rem;
 }
 .Inc:hover{
   color: rgb(51, 182, 18);
