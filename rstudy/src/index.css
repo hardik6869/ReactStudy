@@ -1,4 +1,4 @@
-*{ margin: 0; padding: 0;  box-sizing: border-box; background-color: aqua;}
+*{ margin: 0; padding: 0;  box-sizing: border-box;}
 
 .greetstyle{
   margin-top: 30px;
@@ -18,7 +18,7 @@ input{
   margin: 0.5rem 0;
   font-size: 2rem;
 }
-h1{
+/* h1{
   cursor: pointer;
   font-family: 'Carter One',cursive;
   text-align: center;
@@ -28,11 +28,11 @@ h1{
               0 3px #efefef,
               0 4px #efefef,
               0 20px 5px rgb(0,0,0,.1);
-}
-h1:hover,button:hover{
+} */
+/* h1:hover,button:hover{
   letter-spacing: 0.125rem;
   word-spacing: 0.5rem;
-}
+} */
 .Arithmatic{
   margin-top: 28px;
   font-family: 'Carter One',cursive;
@@ -45,7 +45,7 @@ h1:hover,button:hover{
               0 30px 5px rgb(0,0,0,.1);
 
 }
-button{ 
+/* button{ 
   font-size: 0.6rem;
   cursor: pointer;
   outline: none;
@@ -69,13 +69,13 @@ button{
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.65,-0.25,0.25,1.95);
-}
-.Main_div{
+} */
+/* .Main_div{
   margin:2% 30%;
   border-radius: 20px;
   padding: 0 0 5% 0 ;
   box-shadow: 3px 3px 3px 3px gray;
-}
+} */
 .inner_div{
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ button{
               0 20px 5px rgb(0,0,0,.1);
 }
 button:hover{
-  background-color: rgb(8, 185, 47);
+  /* background-color: rgb(8, 185, 47); */
 }
 .delbtn{
   cursor: pointer;
@@ -119,4 +119,43 @@ button:hover{
 }
 .todoText{
   flex-direction: row;
+}
+.main{
+  padding-top:35vh ;
+  margin: 3 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Main_box{
+  text-align: center;
+  padding: 50px;
+  width: 20%;
+  background-color: White;
+  border-radius: 10px;
+  box-shadow: 0 1px #efefef,
+  0 2px #efefef,
+  0 3px #efefef,
+  0 4px #efefef, 0 20px 30px rgb(0,0,0,.6);
+}
+h1{
+  text-shadow: 0 1px #efefef,
+              0 2px #efefef,
+              0 3px #efefef,
+              0 4px #efefef,
+              0 10px 5px rgb(0,0,0,.3);
+              margin-bottom: 20px;
+}
+.Inc,.rem{
+  box-shadow: 0 1px #efefef,
+              0 2px #efefef,
+              0 3px #efefef,
+              0 4px #efefef, 0 15px 5px rgb(255,0,0,.3);
+  margin: 30rem;
+}
+.Inc:hover{
+  color: rgb(51, 182, 18);
+}
+.rem:hover{
+  color: red;
 }
